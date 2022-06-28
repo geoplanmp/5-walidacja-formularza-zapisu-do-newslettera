@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidacja formularza zapisu do Newsletter'a</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="my-form" action="" method="POST">
+
+        <ul class="errors"></ul>
+
+        <label>Imię i nazwisko: <input type="text" class="flex" name="name" value="" placeholder="Imię i nazwisko"></label>
+        <br>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" class="flex" name="email" id="email" value="" placeholder="e-mail">
+        <br>
+
+        <input type="checkbox" class="text" name="agreement" id="allAgreement">
+        <label for="allAgreement">Wszystkie zgody</label><br>
+
+        <input type="checkbox" class="text" name="agreement1" id="firstAgreement">
+        <label for="firstAgreement">Wyrażam pierwszą zgodę</label><br>
+
+        <input type="checkbox" class="text" name="agreement2" id="secondAgreement">
+        <label for="secondAgreement">Wyrażam drugą zgodę</label><br>
+
+        <input type="submit" class="submit" value="Submit">
+
+
+    </form>
+
+    <!-- <form action="https://formspree.io/xknqnawk" method="POST">
+
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" name="name" id="name"> <br>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" name="email" id="email"> <br>
+
+        <label for="phone">Telefon:</label>
+        <input type="tel" name="phone" id="phone"> <br>
+
+        <label for="message">Wiadomość:</label>
+        <textarea name="message" id="message"></textarea> <br>
+
+        <input type="submit" value="Wyślij wiadomość">
+
+    </form> -->
+
+    <script src="js/script.js "></script>
+</body>
+
+</html>

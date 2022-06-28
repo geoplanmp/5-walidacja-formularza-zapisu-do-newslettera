@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+}
+
+form#my-form {
+    background-color: rgb(30, 216, 30);
+    color: white;
+    margin: auto;
+    padding: 30px;
+}
+
+.errors {
+    color: red;
+}
+
+.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.text {
+    margin-bottom: 12px;
+}
+
+input.submit {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: auto;
+}
